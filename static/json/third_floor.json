@@ -1,0 +1,2207 @@
+{
+  "type": "FeatureCollection",
+  "name": "信电学院",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#032a5e",
+        "stroke-width": 3,
+        "stroke-opacity": 1,
+        "fill": "#032a5e",
+        "fill-opacity": 1,
+        "adcode": 3,
+        "name": "底图",
+        "floor": 1,
+        "center": [114.632217, 36.613201],
+        "centroid": [114.632217, 36.613201],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "三层底图"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.581457, 36.646151],
+            [114.667652, 36.646151],
+            [114.667652, 36.626987],
+            [114.597292, 36.626935],
+            [114.597292, 36.619237],
+            [114.607377, 36.619237],
+            [114.607377, 36.603494],
+            [114.597292, 36.603494],
+            [114.597292, 36.595777],
+            [114.668532, 36.595777],
+            [114.668532, 36.591986],
+            [114.67012, 36.591986],
+            [114.67012, 36.587197],
+            [114.668532, 36.587197],
+            [114.668532, 36.568104],
+            [114.637847, 36.568104],
+            [114.637847, 36.576273],
+            [114.581371, 36.576273],
+            [114.581371, 36.595777],
+            [114.590683, 36.595777],
+            [114.590683, 36.603356],
+            [114.589825, 36.603356],
+            [114.589755, 36.603851],
+            [114.589605, 36.604316],
+            [114.589433, 36.604798],
+            [114.589272, 36.605315],
+            [114.589111, 36.605883],
+            [114.589015, 36.606211],
+            [114.588864, 36.60671],
+            [114.588639, 36.607856],
+            [114.588532, 36.608398],
+            [114.588457, 36.608967],
+            [114.588425, 36.609518],
+            [114.588349, 36.610095],
+            [114.588339, 36.610663],
+            [114.588349, 36.611258],
+            [114.58836, 36.611791],
+            [114.588371, 36.612334],
+            [114.588414, 36.612842],
+            [114.588478, 36.613359],
+            [114.588521, 36.613927],
+            [114.588628, 36.614539],
+            [114.588725, 36.615116],
+            [114.588832, 36.615693],
+            [114.588972, 36.616278],
+            [114.589143, 36.616898],
+            [114.589347, 36.617501],
+            [114.589562, 36.618087],
+            [114.589733, 36.618672],
+            [114.589825, 36.619177],
+            [114.590683, 36.619211],
+            [114.590683, 36.626754],
+            [114.581457, 36.626754],
+            [114.581457, 36.646151]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 301,
+        "name": "301",
+        "floor": 150,
+        "center": [114.662582, 36.576948],
+        "centroid": [114.662582, 36.576948],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "301"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.657701, 36.584656],
+            [114.667936, 36.584656],
+            [114.667936, 36.569061],
+            [114.657701, 36.569061],
+            [114.657701, 36.584656]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 302,
+        "name": "302",
+        "floor": 150,
+        "center": [114.652798, 36.576948],
+        "centroid": [114.652798, 36.576948],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "302"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.648313, 36.584656],
+            [114.657433, 36.584656],
+            [114.657433, 36.569061],
+            [114.648313, 36.569061],
+            [114.648313, 36.584656]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 306,
+        "name": "306",
+        "floor": 150,
+        "center": [114.643185, 36.576948],
+        "centroid": [114.643185, 36.576948],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "306"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.638314, 36.584656],
+            [114.648013, 36.584656],
+            [114.648013, 36.569061],
+            [114.638314, 36.569061],
+            [114.638314, 36.584656]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 308,
+        "name": "308",
+        "floor": 150,
+        "center": [114.635674, 36.581118],
+        "centroid": [114.635674, 36.581118],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "308"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.633057, 36.584656],
+            [114.638078, 36.584656],
+            [114.638078, 36.577454],
+            [114.633057, 36.577454],
+            [114.633057, 36.584656]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 309,
+        "name": "309",
+        "floor": 150,
+        "center": [114.629301, 36.581118],
+        "centroid": [114.629301, 36.581118],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "309"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.625826, 36.584656],
+            [114.632821, 36.584656],
+            [114.632821, 36.577471],
+            [114.625826, 36.577471],
+            [114.625826, 36.584656]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 311,
+        "name": "311",
+        "floor": 150,
+        "center": [114.618143, 36.581118],
+        "centroid": [114.618143, 36.581118],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "311"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.61058, 36.584656],
+            [114.625493, 36.584656],
+            [114.625493, 36.577492],
+            [114.61058, 36.577492],
+            [114.61058, 36.584656]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 313,
+        "name": "313",
+        "floor": 150,
+        "center": [114.603252, 36.581118],
+        "centroid": [114.603252, 36.581118],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "313"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.595217, 36.584656],
+            [114.610312, 36.584656],
+            [114.610312, 36.577458],
+            [114.595217, 36.577458],
+            [114.595217, 36.584656]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 314,
+        "name": "314",
+        "floor": 150,
+        "center": [114.586622, 36.581118],
+        "centroid": [114.586622, 36.581118],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "314"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.581881, 36.584656],
+            [114.591644, 36.584656],
+            [114.591644, 36.577458],
+            [114.581881, 36.577458],
+            [114.581881, 36.584656]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西南楼梯间",
+        "floor": 150,
+        "center": [114.59869, 36.591749],
+        "centroid": [114.59869, 36.591749],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "楼梯"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.596772, 36.594591],
+            [114.600592, 36.594591],
+            [114.600592, 36.587262],
+            [114.596772, 36.587262],
+            [114.596772, 36.594591]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西南男厕",
+        "floor": 150,
+        "center": [114.60311, 36.592866],
+        "centroid": [114.60311, 36.592866],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "男厕"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.600957, 36.594591],
+            [114.604111, 36.594591],
+            [114.604111, 36.593223],
+            [114.60557, 36.593223],
+            [114.60557, 36.590725],
+            [114.600957, 36.590725],
+            [114.600957, 36.594591]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西南男洗手台",
+        "floor": 150,
+        "center": [114.602595, 36.589093],
+        "centroid": [114.602595, 36.589093],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "男洗手台"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.600957, 36.590501],
+            [114.604089, 36.590501],
+            [114.604089, 36.587262],
+            [114.600957, 36.587262],
+            [114.600957, 36.590501]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西南女厕",
+        "floor": 150,
+        "center": [114.60753, 36.594382],
+        "centroid": [114.60753, 36.594382],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "女厕"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.604368, 36.594591],
+            [114.610012, 36.594591],
+            [114.610012, 36.593223],
+            [114.605913, 36.593223],
+            [114.605913, 36.593413],
+            [114.604368, 36.593413],
+            [114.604368, 36.594591]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西南女洗手台",
+        "floor": 150,
+        "center": [114.607895, 36.591953],
+        "centroid": [114.607895, 36.591953],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "女洗手台"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.605762, 36.592971],
+            [114.610012, 36.592971],
+            [114.610012, 36.590725],
+            [114.605762, 36.590725],
+            [114.605762, 36.592971]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西南茶水间",
+        "floor": 150,
+        "center": [114.605835, 36.588128],
+        "centroid": [114.605835, 36.588128],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "茶水间"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.60502, 36.588903],
+            [114.606683, 36.588903],
+            [114.606683, 36.587262],
+            [114.60502, 36.587262],
+            [114.60502, 36.588903]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 312,
+        "name": "312",
+        "floor": 150,
+        "center": [114.609451, 36.588886],
+        "centroid": [114.609451, 36.588886],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "312"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.608917, 36.590501],
+            [114.610033, 36.590501],
+            [114.610033, 36.587262],
+            [114.608917, 36.587262],
+            [114.608917, 36.590501]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 310,
+        "name": "310",
+        "floor": 150,
+        "center": [114.620008, 36.591358],
+        "centroid": [114.620008, 36.591358],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "310"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.610398, 36.594591],
+            [114.629173, 36.594591],
+            [114.629173, 36.587262],
+            [114.610398, 36.587262],
+            [114.610398, 36.594591]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 307,
+        "name": "307",
+        "floor": 150,
+        "center": [114.636616, 36.591358],
+        "centroid": [114.636616, 36.591358],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "307"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.629367, 36.594591],
+            [114.643314, 36.594591],
+            [114.643314, 36.587262],
+            [114.629367, 36.587262],
+            [114.629367, 36.594591]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 305,
+        "name": "305",
+        "floor": 150,
+        "center": [114.64859, 36.591358],
+        "centroid": [114.64859, 36.591358],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "305"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.643539, 36.594591],
+            [114.65313, 36.594591],
+            [114.65313, 36.587262],
+            [114.643539, 36.587262],
+            [114.643539, 36.594591]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 304,
+        "name": "304",
+        "floor": 150,
+        "center": [114.661335, 36.593185],
+        "centroid": [114.661335, 36.593185],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "304"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.653345, 36.594591],
+            [114.668065, 36.594591],
+            [114.668065, 36.591628],
+            [114.653345, 36.591628],
+            [114.653345, 36.594591]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "东南电梯",
+        "floor": 150,
+        "center": [114.658546, 36.590221],
+        "centroid": [114.658546, 36.590221],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "电梯"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.657765, 36.591077],
+            [114.659353, 36.591077],
+            [114.659353, 36.589337],
+            [114.657765, 36.589337],
+            [114.657765, 36.591077]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 303,
+        "name": "303",
+        "floor": 150,
+        "center": [114.658752, 36.588225],
+        "centroid": [114.658752, 36.588225],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "303"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.657508, 36.588941],
+
+            [114.659954, 36.588923],
+
+            [114.659954, 36.587262],
+
+            [114.657508, 36.587262],
+
+            [114.657508, 36.588941]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "东南楼梯",
+        "floor": 150,
+        "center": [114.666155, 36.589689],
+        "centroid": [114.666155, 36.589689],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "楼梯"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.660233, 36.591353],
+
+            [114.668065, 36.591353],
+
+            [114.668065, 36.587262],
+
+            [114.660233, 36.587262],
+
+            [114.660233, 36.591353]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 315,
+        "name": "315",
+        "floor": 150,
+        "center": [114.601395, 36.61167],
+        "centroid": [114.601395, 36.61167],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "315"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.597276, 36.618793],
+
+            [114.606073, 36.618793],
+
+            [114.606073, 36.603808],
+
+            [114.597276, 36.603808],
+
+            [114.597276, 36.618793]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 316,
+        "name": "316",
+        "floor": 150,
+        "center": [114.586804, 36.631888],
+        "centroid": [114.586804, 36.631888],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "316"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.581881, 36.635169],
+
+            [114.591611, 36.635169],
+
+            [114.591611, 36.628023],
+
+            [114.581881, 36.628023],
+
+            [114.581881, 36.635169]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 317,
+        "name": "317",
+        "floor": 150,
+        "center": [114.586362, 36.64189],
+        "centroid": [114.586362, 36.64189],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "317"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.581881, 36.645121],
+
+            [114.591166, 36.645121],
+
+            [114.591166, 36.638],
+
+            [114.581881, 36.638],
+
+            [114.581881, 36.645121]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西北男厕",
+        "floor": 150,
+        "center": [114.593486, 36.643405],
+        "centroid": [114.593486, 36.643405],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "男厕"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.591531, 36.645121],
+
+            [114.594621, 36.645121],
+
+            [114.594621, 36.643768],
+
+            [114.596101, 36.643768],
+
+            [114.596101, 36.641254],
+
+            [114.591531, 36.641254],
+
+            [114.591531, 36.645121]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西北男洗手台",
+        "floor": 150,
+        "center": [114.593057, 36.639445],
+        "centroid": [114.593057, 36.639445],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "男洗手台"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.591531, 36.641031],
+
+            [114.594707, 36.641031],
+
+            [114.594707, 36.637983],
+
+            [114.591531, 36.637983],
+
+            [114.591531, 36.641031]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西北女厕",
+        "floor": 150,
+        "center": [114.597992, 36.644886],
+        "centroid": [114.597992, 36.644886],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "女厕"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.594921, 36.645121],
+
+            [114.600565, 36.645121],
+
+            [114.600565, 36.643768],
+
+            [114.596445, 36.643768],
+
+            [114.596445, 36.64394],
+
+            [114.594921, 36.64394],
+
+            [114.594921, 36.645121]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西北女洗手台",
+        "floor": 150,
+        "center": [114.59855, 36.642338],
+        "centroid": [114.59855, 36.642338],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "女洗手台"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.59638, 36.643458],
+
+            [114.600586, 36.643458],
+
+            [114.600586, 36.641254],
+
+            [114.59638, 36.641254],
+
+            [114.59638, 36.643458]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "茶水间",
+        "floor": 150,
+        "center": [114.596447, 36.638688],
+        "centroid": [114.596447, 36.638688],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "茶水间"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.595608, 36.639429],
+
+            [114.597324, 36.639429],
+
+            [114.597324, 36.637983],
+
+            [114.595608, 36.637983],
+
+            [114.595608, 36.639429]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 318,
+        "name": "318",
+        "floor": 150,
+        "center": [114.600074, 36.639463],
+        "centroid": [114.600074, 36.639463],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "318"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.599492, 36.641031],
+
+            [114.600586, 36.641031],
+
+            [114.600586, 36.637983],
+
+            [114.599492, 36.637983],
+
+            [114.599492, 36.641031]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西北楼梯间",
+        "floor": 150,
+        "center": [114.598722, 36.631249],
+        "centroid": [114.598722, 36.631249],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "楼梯"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.597276, 36.635169],
+
+            [114.600586, 36.635169],
+
+            [114.600586, 36.628054],
+
+            [114.597276, 36.628054],
+
+            [114.597276, 36.635169]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 319,
+        "name": "319",
+        "floor": 150,
+        "center": [114.60252, 36.630561],
+        "centroid": [114.60252, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "319"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.60094, 36.632936],
+
+            [114.604073, 36.632936],
+
+            [114.604073, 36.62802],
+
+            [114.60094, 36.62802],
+
+            [114.60094, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 320,
+        "name": "320",
+        "floor": 150,
+        "center": [114.605739, 36.630561],
+        "centroid": [114.605739, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "320"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.604298, 36.632936],
+
+            [114.607227, 36.632936],
+
+            [114.607227, 36.62802],
+
+            [114.604298, 36.62802],
+
+            [114.604298, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 321,
+        "name": "321",
+        "floor": 150,
+        "center": [114.608829, 36.630561],
+        "centroid": [114.608829, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "321"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.607442, 36.632936],
+
+            [114.610371, 36.632936],
+
+            [114.610371, 36.62802],
+
+            [114.607442, 36.62802],
+
+            [114.607442, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 322,
+        "name": "322",
+        "floor": 150,
+        "center": [114.612154, 36.630561],
+        "centroid": [114.612154, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "322"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.610607, 36.632936],
+
+            [114.613504, 36.632936],
+
+            [114.613504, 36.62802],
+
+            [114.610607, 36.62802],
+
+            [114.610607, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 323,
+        "name": "323",
+        "floor": 150,
+        "center": [114.615223, 36.630561],
+        "centroid": [114.615223, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "323"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.61374, 36.632936],
+
+            [114.616647, 36.632936],
+
+            [114.616647, 36.62802],
+
+            [114.61374, 36.62802],
+
+            [114.61374, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 324,
+        "name": "324",
+        "floor": 150,
+        "center": [114.618248, 36.630561],
+        "centroid": [114.618248, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "324"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.616883, 36.632936],
+
+            [114.619791, 36.632936],
+
+            [114.619791, 36.62802],
+
+            [114.616883, 36.62802],
+
+            [114.616883, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 325,
+        "name": "325",
+        "floor": 150,
+        "center": [114.621531, 36.630561],
+        "centroid": [114.621531, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "325"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.620016, 36.632936],
+
+            [114.622913, 36.632936],
+
+            [114.622913, 36.62802],
+
+            [114.620016, 36.62802],
+
+            [114.620016, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 326,
+        "name": "326",
+        "floor": 150,
+        "center": [114.624686, 36.630561],
+        "centroid": [114.624686, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "326"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.623192, 36.632936],
+
+            [114.62611, 36.632936],
+
+            [114.62611, 36.62802],
+
+            [114.623192, 36.62802],
+
+            [114.623192, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 327,
+        "name": "327",
+        "floor": 150,
+        "center": [114.627754, 36.630561],
+        "centroid": [114.627754, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "327"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.626303, 36.632936],
+
+            [114.629232, 36.632936],
+
+            [114.629232, 36.62802],
+
+            [114.626303, 36.62802],
+
+            [114.626303, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 328,
+        "name": "328",
+        "floor": 150,
+        "center": [114.630908, 36.630561],
+        "centroid": [114.630908, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "328"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.629479, 36.632936],
+
+            [114.632343, 36.632936],
+
+            [114.632343, 36.62802],
+
+            [114.629479, 36.62802],
+
+            [114.629479, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 329,
+        "name": "329",
+        "floor": 150,
+        "center": [114.634127, 36.630561],
+        "centroid": [114.634127, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "329"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.632633, 36.632936],
+
+            [114.635498, 36.632936],
+
+            [114.635498, 36.62802],
+
+            [114.632633, 36.62802],
+
+            [114.632633, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 331,
+        "name": "331",
+        "floor": 150,
+        "center": [114.637174, 36.630561],
+        "centroid": [114.637174, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "331"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.635734, 36.632936],
+
+            [114.638631, 36.632936],
+
+            [114.638631, 36.62802],
+
+            [114.635734, 36.62802],
+
+            [114.635734, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 332,
+        "name": "332",
+        "floor": 150,
+        "center": [114.640328, 36.630561],
+        "centroid": [114.640328, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "332"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.638856, 36.632936],
+
+            [114.641796, 36.632936],
+
+            [114.641796, 36.62802],
+
+            [114.638856, 36.62802],
+
+            [114.638856, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 333,
+        "name": "333",
+        "floor": 150,
+        "center": [114.643483, 36.630561],
+        "centroid": [114.643483, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "333"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.642032, 36.632936],
+
+            [114.644939, 36.632936],
+
+            [114.644939, 36.62802],
+
+            [114.642032, 36.62802],
+
+            [114.642032, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 334,
+        "name": "334",
+        "floor": 150,
+        "center": [114.646787, 36.630561],
+        "centroid": [114.646787, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "334"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.645164, 36.632936],
+
+            [114.648104, 36.632936],
+
+            [114.648104, 36.62802],
+
+            [114.645164, 36.62802],
+
+            [114.645164, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 335,
+        "name": "335",
+        "floor": 150,
+        "center": [114.649856, 36.630561],
+        "centroid": [114.649856, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "335"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.648319, 36.632936],
+
+            [114.651258, 36.632936],
+
+            [114.651258, 36.62802],
+
+            [114.648319, 36.62802],
+
+            [114.648319, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 336,
+        "name": "336",
+        "floor": 150,
+        "center": [114.65286, 36.630561],
+        "centroid": [114.65286, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "336"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.651462, 36.632936],
+
+            [114.654359, 36.632936],
+
+            [114.654359, 36.62802],
+
+            [114.651462, 36.62802],
+
+            [114.651462, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 337,
+        "name": "337",
+        "floor": 150,
+        "center": [114.656078, 36.630561],
+        "centroid": [114.656078, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "337"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.654595, 36.632936],
+
+            [114.657503, 36.632936],
+
+            [114.657503, 36.62802],
+
+            [114.654595, 36.62802],
+
+            [114.654595, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 338,
+        "name": "338",
+        "floor": 150,
+        "center": [114.659233, 36.630561],
+        "centroid": [114.659233, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "338"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.657711, 36.632936],
+
+            [114.660651, 36.632936],
+
+            [114.660651, 36.62802],
+
+            [114.657711, 36.62802],
+
+            [114.657711, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 339,
+        "name": "339",
+        "floor": 150,
+        "center": [114.662323, 36.630561],
+        "centroid": [114.662323, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "339"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.660928, 36.632936],
+
+            [114.663782, 36.632936],
+
+            [114.663782, 36.62802],
+
+            [114.660928, 36.62802],
+
+            [114.660928, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 340,
+        "name": "340",
+        "floor": 150,
+        "center": [114.665648, 36.630561],
+        "centroid": [114.665648, 36.630561],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "340"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.664036, 36.632936],
+
+            [114.667287, 36.632936],
+
+            [114.667287, 36.62802],
+
+            [114.664036, 36.62802],
+
+            [114.664036, 36.632936]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "东北共享空间",
+        "floor": 150,
+        "center": [114.655692, 36.641374],
+        "centroid": [114.655692, 36.641374],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "共享空间"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.643318, 36.645143],
+
+            [114.667136, 36.645143],
+
+            [114.667136, 36.637981],
+
+            [114.643318, 36.637981],
+
+            [114.643318, 36.645143]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "东北楼梯间",
+        "floor": 150,
+        "center": [114.640715, 36.642235],
+        "centroid": [114.640715, 36.642235],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "楼梯"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.638663, 36.645143],
+
+            [114.643019, 36.645143],
+
+            [114.643019, 36.637981],
+
+            [114.638663, 36.637981],
+
+            [114.638663, 36.645143]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "东北电梯间",
+        "floor": 150,
+        "center": [114.630973, 36.641856],
+        "centroid": [114.630973, 36.641856],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "电梯"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.629661, 36.64424],
+
+            [114.63215, 36.64424],
+
+            [114.63215, 36.639608],
+
+            [114.629661, 36.639608],
+
+            [114.629661, 36.64424]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 330,
+        "name": "330",
+        "floor": 150,
+        "center": [114.631402, 36.638688],
+        "centroid": [114.631402, 36.638688],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "330"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.629661, 36.639402],
+
+            [114.632236, 36.639402],
+
+            [114.632236, 36.637981],
+
+            [114.629661, 36.637981],
+
+            [114.629661, 36.639402]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西北共享空间",
+        "floor": 150,
+        "center": [114.616081, 36.641994],
+        "centroid": [114.616081, 36.641994],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "共享空间"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.600844, 36.645143],
+
+            [114.629307, 36.645143],
+
+            [114.629307, 36.637981],
+
+            [114.600844, 36.637981],
+
+            [114.600844, 36.645143]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#02234D",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "fill": "#8fa1c1",
+        "fill-opacity": 1,
+        "adcode": 33,
+        "name": "西北储藏间",
+        "floor": 150,
+        "center": [114.631788, 36.645437],
+        "centroid": [114.631788, 36.645437],
+        "childrenNum": 20,
+        "level": "district",
+        "acroutes": [100000, 130000, 130400],
+        "parent": {
+          "abbreviation": "储藏间"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.629661, 36.645858],
+
+            [114.634393, 36.645858],
+
+            [114.634393, 36.645359],
+
+            [114.63215, 36.645359],
+
+            [114.63215, 36.644463],
+
+            [114.629661, 36.644463],
+
+            [114.629661, 36.645858]
+          ]
+        ]
+      }
+    }
+  ]
+}
