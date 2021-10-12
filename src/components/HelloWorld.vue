@@ -1,34 +1,63 @@
 <template>
-  <div>
-    <div id="container"></div>
-    <el-dialog
-      :visible.sync="dialogVisible"
-      width="30%"
-    >
-      <span>{{buildingName}}</span>
-      <span slot="footer" class="dialog-footer">
-        <el-button @click="dialogVisible = false">取 消</el-button>
-        <el-button type="primary" @click="dialogVisible = false"
-          >确 定</el-button
-        >
-      </span>
+  <div id="container">
+    <div id="bubble">
+      <!-- <div class="line1" style="width: 50px"></div> -->
+      <div id="bubble_main">
+        <br />
+        <span>楼号：</span>
+        <span id="code"></span>
+        <br /><br />
+        <span>楼名：</span>
+        <span id="name"></span>
+        <!-- <marquee id="name" behavior="scroll" width="90" loop="2"></marquee> -->
+      </div>
+      <svg id="svg_infoWindow">
+        <circle
+          cx="4"
+          cy="50"
+          r="4"
+          stroke="rgba(26,152,252,0.7)"
+          stroke-width="2"
+          fill="transparent"
+        />
+        <polyline
+          fill="transparent"
+          points="8,50, 32,50"
+          stroke="rgba(44,247,254,0.1)"
+          stroke-width="6"
+        ></polyline>
+      </svg>
+    </div>
+    <el-dialog :visible.sync="dialogVisible">
+      <div>
+        <span class="buildingColor">{{ buildingName }}</span>
+        <point-echarts
+          :EquipmentInfo="EquipmentInfo"
+          :activeName="activeName"
+        ></point-echarts>
+      </div>
     </el-dialog>
   </div>
 </template>
 
 <script>
+import { getEquipmentInfo } from "@/api/schoolData";
 import schoolData from "../utils/schoolBuildings.json";
+import pointEcharts from "./PointEcharts.vue";
 export default {
   name: "HelloWorld",
-  props: {
-    msg: String,
+  components: {
+    pointEcharts: pointEcharts,
   },
   data() {
     return {
       entity: [],
+      buildingName: "",
       pointsData: [],
-      dialogVisible:false,
-      buildingName:''
+      dialogVisible: false,
+      EquipmentInfo: "",
+      activeName: "",
+      nowPickedObject:null
     };
   },
   methods: {
@@ -41,13 +70,13 @@ export default {
         animation: false,
         baseLayerPicker: false,
         fullscreenButton: false,
-        geocoder: true,
-        homeButton: true,
+        geocoder: false,
+        homeButton: false,
         sceneModePicker: false,
         selectionIndicator: false,
         timeline: false,
         navigationHelpButton: false,
-        scene3DOnly: true,
+        scene3DOnly: false,
         infoBox: false,
         //加載自定义影像
         // imageryProvider: new Cesium.SingleTileImageryProvider({
@@ -163,7 +192,7 @@ export default {
       this.viewer.scene.brightness.enabled = true;
       this.viewer.scene.brightness.uniforms.brightness = Number(0.95);
 
-      // 添加点击事件
+      // 添加鼠标点击事件
       var handler = new Cesium.ScreenSpaceEventHandler(
         this.viewer.scene.canvas
       );
@@ -171,11 +200,17 @@ export default {
       handler.setInputAction(
         (movement) => {
           var pick = this.viewer.scene.pick(movement.position);
-          if(pick.id){
-            this.buildingName = pick.id.name
-            this.dialogVisible = true
+          if (pick.id) {
+            getEquipmentInfo(pick.id._name).then((res) => {
+              // console.log(res,'res');
+              this.EquipmentInfo = res.data.data[0].equipmentInfo;
+              this.activeName = res.data.data[0].name;
+              // console.log(this.equipmentInfo,'----------------');
+              this.buildingName = pick.id.name;
+              this.dialogVisible = true;
+            });
           }
-          console.log(pick, "pick");
+          // console.log(pick, "pick");
         },
         // var earthPosition = viewer.camera.pickEllipsoid(
         //   event.position,
@@ -187,16 +222,44 @@ export default {
         Cesium.ScreenSpaceEventType.LEFT_CLICK
       );
 
+      // 鼠标移入事件
+      handler.setInputAction((movement) => {
+        // var foundPosition = false;
+        if (this.viewer.scene.mode !== Cesium.SceneMode.MORPHING) {
+          var pickedObject = this.viewer.scene.pick(movement.endPosition)
+          if(this.viewer.scene.pickPositionSupported && Cesium.defined(pickedObject) && pickedObject.id){
+            document.getElementById("bubble").style.display = "block"
+            this.nowPickedObject = pickedObject
+            //console.log( '--------',pickedObject.id._point._pixelSize._value);
+            // console.log(pickedObject, 'pickedObject')
+            pickedObject.id._point._pixelSize._value = 20
+            // document.getElementById("code").innerText = pickedObject.id._id;
+            document.getElementById("name").innerText = pickedObject.id._name;
+            document.getElementById("bubble").style.marginTop = movement.endPosition.y - document.getElementById('bubble').offsetHeight / 2 + "px";
+            document.getElementById("bubble").style.marginLeft = movement.endPosition.x + 10 + "px"
+            // var cartesian = this.viewer.scene.pickPosition(movement.endPosition);
+          }else{
+             if (this.nowPickedObject) {
+              this.nowPickedObject.id._point._pixelSize._value = 9;
+              this.nowPickedObject = null;
+            }
+             document.getElementById("bubble").style.display = "none";
+          }
+          
+        }
+        // console.log(movement);
+      }, Cesium.ScreenSpaceEventType.MOUSE_MOVE);
       //去掉版权信息
       this.viewer._cesiumWidget._creditContainer.style.display = "none";
       this.viewer.scene.sun.show = false; //在Cesium1.6(不确定)之后的版本会显示太阳和月亮，不关闭会影响展示
       this.viewer.scene.moon.show = false;
       this.viewer.scene.skyBox.show = false; //关闭天空盒，否则会显示天空颜色
-      this.viewer.scene.globe.show = true;
+      this.viewer.scene.globe.show = false;
       this.viewer.scene.globe.enableLighting = false; // 开启全球光照
       this.viewer.shadows = true;
       this.viewer.scene.debugShowFramesPerSecond = true;
     },
+    // 把点的坐标遍历到每一个建筑上
     checkSchoolPoint() {
       //console.log(this.pointsData,'-----');
       this.pointsData.forEach((item) => {
@@ -230,4 +293,38 @@ export default {
 };
 </script>
 <style scoped>
+#bubble {
+  opacity: 1;
+  display: none;
+  z-index: 1;
+  color: white;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+}
+#bubble_main {
+  padding-left: 20px;
+  margin-left: 30px;
+  position: absolute;
+  width: 168px;
+  height: 100px;
+  background-color: rgba(128, 183, 201, 0.6);
+  font-size: 15px;
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  border: 1px solid rgba(104, 166, 186, 0.6);
+}
+#svg_infoWindow {
+  position: absolute;
+  width: 32px;
+  height: 100px;
+}
+>>> .el-dialog {
+  background-color: rgba(64, 97, 148, 0.534);
+}
+.buildingColor {
+  margin-left: 50px;
+  font-size: 15px;
+  color: #d0eaff;
+}
 </style>
