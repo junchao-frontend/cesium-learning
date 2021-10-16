@@ -149,6 +149,7 @@ export default {
       // });
 
       // 加载gltf
+
       var modelMatrix = Cesium.Transforms.eastNorthUpToFixedFrame(
         Cesium.Cartesian3.fromDegrees(114.596396, 36.655077, 0)
       );
@@ -210,15 +211,7 @@ export default {
               this.dialogVisible = true;
             });
           }
-          // console.log(pick, "pick");
         },
-        // var earthPosition = viewer.camera.pickEllipsoid(
-        //   event.position,
-        //   this.viewer.scene.globe.ellipsoid
-        // );
-        // if (Cesium.defined(earthPosition)) {
-        //   createPoint(earthPosition); //在点击位置添加一个点
-        // }
         Cesium.ScreenSpaceEventType.LEFT_CLICK
       );
 
@@ -231,10 +224,11 @@ export default {
             document.getElementById("bubble").style.display = "block"
             this.nowPickedObject = pickedObject
             //console.log( '--------',pickedObject.id._point._pixelSize._value);
-            // console.log(pickedObject, 'pickedObject')
+             console.log(pickedObject, 'pickedObject')
             pickedObject.id._point._pixelSize._value = 20
             // document.getElementById("code").innerText = pickedObject.id._id;
             document.getElementById("name").innerText = pickedObject.id._name;
+            document.getElementById("code").innerText = pickedObject.id._code;
             document.getElementById("bubble").style.marginTop = movement.endPosition.y - document.getElementById('bubble').offsetHeight / 2 + "px";
             document.getElementById("bubble").style.marginLeft = movement.endPosition.x + 10 + "px"
             // var cartesian = this.viewer.scene.pickPosition(movement.endPosition);
@@ -257,7 +251,7 @@ export default {
       this.viewer.scene.globe.show = false;
       this.viewer.scene.globe.enableLighting = false; // 开启全球光照
       this.viewer.shadows = true;
-      this.viewer.scene.debugShowFramesPerSecond = true;
+      this.viewer.scene.debugShowFramesPerSecond = false;
     },
     // 把点的坐标遍历到每一个建筑上
     checkSchoolPoint() {
@@ -270,6 +264,7 @@ export default {
             item.position.z
           ),
           name: item.name,
+          code: item.code,
           point: {
             show: true,
             pixelSize: 9,
